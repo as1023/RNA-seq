@@ -12,9 +12,9 @@ echo "SLURM_NNODES"=$SLURM_NNODES
 #echo "working directory = "$SLURM_SUBMIT_DIR
 
 name=$1
-index=/prj/leo_kurian_killifish/Amit/final
-out=/prj/leo_kurian_killifish/workflow
-put=/prj/leo_kurian_killifish/Amit/final
+index=/prj/data/as1023/final
+out=/prj/data/workflow
+put=/prj/data/as1023/final
 cuffquant -p 20 --library-type fr-firststrand -o ${put}/${name}_all ${index}/merged_asm/merged.gtf ${out}/mapping/${name}/Aligned.noS.bam
 echo ${name}
 
