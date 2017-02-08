@@ -12,8 +12,8 @@ echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST
 echo "SLURM_NNODES"=$SLURM_NNODES
 echo "working directory = "$SLURM_SUBMIT_DIR
 
-index=/prj/leo_kurian_killifish/Amit/final
-out=/prj/leo_kurian_killifish/Amit/final
+index=/prj/final
+out=/prj/as1023/final
 cuffdiff -p 20 -C contrast.txt --min-reps-for-js-test 2 --dispersion-method per-condition --output-dir ${out}/cuffdiff_cpm --library-type fr-firststrand --use-sample-sheet ${index}/cuffcmp.combined.gtf sample.txt
 ~                                                                                                                                  
 ~                       
