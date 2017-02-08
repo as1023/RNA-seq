@@ -1,0 +1,6 @@
+./workflow/mapping/K002000083_53160_STARmapping_StringTie/stringtie_outfile.gtf
+./workflow/mapping/K002000083_53158_STARmapping_StringTie/stringtie_outfile.gtf
+./workflow/mapping/K002000083_53159_STARmapping_StringTie/stringtie_outfile.gtf
+./workflow/mapping/K002000083_53162_STARmapping_StringTie/stringtie_outfile.gtf
+./workflow/mapping/K002000083_53157_STARmapping_StringTie/stringtie_outfile.gtf
+./workflow/mapping/K002000083_53161_STARmapping_StringTie/stringtie_outfile.gtf

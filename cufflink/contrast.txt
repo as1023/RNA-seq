@@ -1,0 +1,4 @@
+condition_A	condition_B
+6wks	12wks
+6wks	12wks
+6wks	12wks

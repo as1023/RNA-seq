@@ -1,0 +1,8 @@
+sample_id	group_label
+/prj/leo_kurian_killifish/Amit/final/K002000083_53157_STARmapping_all/abundances.cxb	6wks
+/prj/leo_kurian_killifish/Amit/final/K002000083_53158_STARmapping_all/abundances.cxb	6wks
+/prj/leo_kurian_killifish/Amit/final/K002000083_53159_STARmapping_all/abundances.cxb	6wks
+/prj/leo_kurian_killifish/Amit/final/K002000083_53160_STARmapping_all/abundances.cxb	12wks
+/prj/leo_kurian_killifish/Amit/final/K002000083_53161_STARmapping_all/abundances.cxb	12wks
+/prj/leo_kurian_killifish/Amit/final/K002000083_53162_STARmapping_all/abundances.cxb	12wks 
+
