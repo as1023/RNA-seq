@@ -1,0 +1,2 @@
+/home/as1023/Result/LongRNA/mouse/cufflink/SN7_E95_3_mapping/transcripts.gtf
+/home/as1023/Result/LongRNA/mouse/cufflink/SN7_E14_3_mapping/transcripts.gtf
