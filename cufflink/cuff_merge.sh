@@ -13,13 +13,13 @@ echo "SLURM_NNODES"=$SLURM_NNODES
 
 #ls ./cufflink/*/transcripts.gtf > assembly_GTF_list.txt
 
-genome=/prj/leo_kurian_killifish/killifish_annotation
-cuffmerge -p10 -g ${genome}/NotFur1_protein_coding_gene_models_15-07-2014.gtf \
+genome=/prj/genome
+cuffmerge -p10 -g ${genome}/GRC39.gtf \
 -s ${genome}/NotFur1_genome_draft.fa \
 gtf_out_list.txt --keep-tmp > cuffmerge.stdout 2> cuffmerge.stderr
 
 cuffcompare -V \
--r ${genome}/NotFur1_protein_coding_gene_models_15-07-2014.gtf \
+-r ${genome}/GRC39.gtf \
 -C merged_asm/merged.gtf > cuffcompare.stdout 2> cuffcompare.stderr
 
 
