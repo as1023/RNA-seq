@@ -13,11 +13,11 @@ echo "SLURM_NNODES"=$SLURM_NNODES
 #echo "working directory = "$SLURM_SUBMIT_DIR
 
 name=$1
-out=/prj/leo_kurian_killifish/Amit
-dir=/prj/leo_kurian_killifish/workflow
+out=/prj/data
+dir=/prj/workflow
 
 #mkdir -p "${out}/cufflink/"${name}
-cufflinks -p 10 -o ${out}/cufflink/${name} -G /prj/leo_kurian_killifish/killifish_annotation/NotFur1_protein_coding_gene_models_15-07-2014.gtf /${dir}/mapping/${name}/Aligned.noS.bam
+cufflinks -p 10 -o ${out}/cufflink/${name} -G /prj/genome/GRC39.gtf /${dir}/mapping/${name}/Aligned.noS.bam
 echo ${name}
 
 
