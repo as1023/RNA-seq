@@ -1,0 +1,35 @@
+.bash_profile.pysave
+
+
+xport LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
+
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/asingh2/software/boost_1_59_0/:Users/asingh2/softwear/homer/bin/:/Users/asingh2/software/bowtie2-2.2.6/:/Users/asingh2/software/samtools-1.2/:/Users/asingh2/software/tophat-2.1.0/${PATH}"
+export PATH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+#PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+#export PATH
+
